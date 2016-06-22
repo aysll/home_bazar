@@ -14,6 +14,9 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -315,7 +318,7 @@
             <div class="col-md-3">
               <div class="lil_arrival">
                 <a href="#">
-                  <img class="center-block" src="images/gostak.jpg">
+                  <img class="center-block" style="width: 80px;" src="images/gostak.jpg">
                 </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
                 <p class="text-center">$45.00</p>
@@ -327,7 +330,7 @@
                 <span class="pull-right" id="new">NEW</span>
                 <span class="pull-right" id="hot">HOT</span>
                 <a href="#">
-                   <img class="center-block" style="width: 120px;" src="images/angel.jpg">
+                   <img class="center-block"  src="images/angel.jpg">
                 </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
                 <p class="text-center">$45.00</p>
@@ -339,7 +342,7 @@
           <div class=" col-md-3">
             <div id="lil_arrival3" class="lil_arrival ">
             <a href="#">
-                <img class="center-block" style="width: 150px;" src="images/coaster.jpg">
+                <img class="center-block"  src="images/coaster.jpg">
             </a>
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
                 <p class="text-center">$45.00</p>
@@ -350,7 +353,7 @@
             <div class="lil_arrival">
                <span class="pull-right" id="hot1">HOT</span>  
                 <a href="#">
-                 <img class="center-block" style="width: 180px;" src="images/travelcase4.jpg">
+                 <img class="center-block"  src="images/travelcase4.jpg">
                 </a>            
                 <h6 class="text-center">Small cactus variety pot<br> from France</h6>
                 <p class="text-center">$45.00</p>
@@ -360,7 +363,7 @@
           <div class="col-md-3">
             <div class="lil_arrival">
               <a href="#">
-               <img class="center-block" style="width: 180px;" src="images/pitcher.jpg">
+               <img class="center-block"  src="images/pitcher.jpg">
               </a>
               <h6 class="text-center">Small cactus variety pot<br> from France</h6>
               <p class="text-center">$45.00</p>
@@ -370,7 +373,7 @@
           <div class=" col-md-3">
             <div class="lil_arrival">
             <a href="#">
-              <img class="center-block" style="width: 150px;" src="images/kidsinfuser.jpg">
+              <img class="center-block"    src="images/kidsinfuser.jpg">
             </a>
               <h6 class="text-center">Small cactus variety pot<br> from France</h6>
               <p class="text-center">$45.00</p>
