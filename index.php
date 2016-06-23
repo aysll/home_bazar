@@ -23,6 +23,11 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+  <!--  ----------------------------------------- -->
+    <link type="text/css" rel="stylesheet" href="assets/css/lightslider.css" />
+
+
+
   </head>
   <body>
       <!-- Rüfət: start -->
@@ -181,9 +186,9 @@
       <div class="bg-f1f1f1 padding-section">
         <div class="container">
           <div class="row txt-center">
-            <h2 class="col-xs-12 txt-upper color-2b2b2b f-lato">Featured items</h2>
+            <h2 class="col-xs-12 txt-upper color-2b2b2b">Featured items</h2>
 
-            <ul class="nav nav-tabs display-ib m-t-3" role="tablist">
+            <ul class="nav nav-tabs display-ib" role="tablist">
               <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
 
               <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
@@ -193,28 +198,79 @@
               <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
             </ul> <!-- end of .nav-tabs  -->
 
-            <div class="tab-content m-t-3">
+            <div class="tab-content">
               <div role="tabpanel" class="tab-pane active" id="home">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
                   <div class="row">
-                  <?php for ($i=0; $i < 4; $i++) : ?>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 m-b-3">
-                      <div class="thumbnail no-margin no-radius">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="thumbnail no-margin">
                         <a href="#" class="display-b">
                           <img src="images/_slider.jpg" alt="">
 
                           <div class="caption">
-                            <h3 class="f-lato">Small Cactus Variety pot from France</h3>
-                            <p class="f-lato">$45.00</p>
+                            <h3>Small Cactus Variety pot from France</h3>
+                            <p>$45.00</p>
                           </div>
                         </a>
                       </div> <!-- end of .thumbnail -->
 
-                      <span class="display-b">
-                          <a href="#" class="f-lato btn-card btn btn-block no-radius color-2b2b2b">Add to card</a>
-                        </span>
+                      <span class="thumbnail-addCart display-b">
+                        <a href="#" class="">Add to card</a>
+                      </span>
                     </div>
-                  <?php endfor ?>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="thumbnail no-margin">
+                        <a href="#" class="display-b">
+                          <img src="images/_slider.jpg" alt="">
+
+                          <div class="caption">
+                            <h3>Small Cactus Variety pot from France</h3>
+                            <p>$45.00</p>
+                          </div>
+                        </a>
+                      </div> <!-- end of .thumbnail -->
+
+                      <span class="thumbnail-addCart display-b">
+                        <a href="#" class="">Add to card</a>
+                      </span>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="thumbnail no-margin">
+                        <a href="#" class="display-b">
+                          <img src="images/_slider.jpg" alt="">
+
+                          <div class="caption">
+                            <h3>Small Cactus Variety pot from France</h3>
+                            <p>$45.00</p>
+                          </div>
+                        </a>
+                      </div> <!-- end of .thumbnail -->
+
+                      <span class="thumbnail-addCart display-b">
+                        <a href="#" class="">Add to card</a>
+                      </span>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="thumbnail no-margin">
+                        <a href="#" class="display-b">
+                          <img src="images/_slider.jpg" alt="">
+
+                          <div class="caption">
+                            <h3>Small Cactus Variety pot from France</h3>
+                            <p>$45.00</p>
+                          </div>
+                        </a>
+                      </div> <!-- end of .thumbnail -->
+
+                      <span class="thumbnail-addCart display-b">
+                        <a href="#" class="">Add to card</a>
+                      </span>
+                    </div>
+
                   </div> <!-- end of .row -->
                 </div> <!-- end of .col-lg-6 main first -->
 
@@ -222,11 +278,11 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <div class="row">
                     <div class="col-xs-12 i-frame">
-                      <h2 class="f-lato">We from France. <br><span class="color-green">BestWishes</span> for you</h2>
+                      <h2>We from France. <br><span class="color-green">BestWishes</span> for you</h2>
 
-                      <p class="f-lato">Hawker & Jonre PSD Template is an awesome design idea for your online shop. Creative. Modern. Elegant. Clean. Also it will be very easy to customize, enable you to either create a stunning layout of your own or just do some minor and some adjustments.</p>
+                      <p>Hawker & Jonre PSD Template is an awesome design idea for your online shop. Creative. Modern. Elegant. Clean. Also it will be very easy to customize, enable you to either create a stunning layout of your own or just do some minor and some adjustments.</p>
 
-                      <a href="#" class="display-b color-3b3b3b headline headline-green f-lato">View more</a>
+                      <a href="#" class="display-b color-3b3b3b headline headline-green">View more</a>
                     </div>
                   </div> <!-- end of .row  -->
                 </div> <!-- end of .col-lg-6 main second  -->
@@ -345,16 +401,13 @@
       <!-- Gunel:  end -->
 
       <!-- Aysel: start -->
-      <div class="container fluid">
-  <div class="container">
-
-                <div class="row ourrow">
-
-                  <h1><b>FROM OUR BLOG<b></h1>
-                </div>
+   <div class="container fluid">
+            <div class="container">
+                   <div class="row ourrow">
+                      <h1><b>FROM OUR BLOG<b></h1>
+                   </div>
 
     <div class="row rowcol"> 
-  
     <div class="col-md-5 col-md-offset-1"> 
           <div class="ourcol"></div>
            <div class="row rownewsleft">
@@ -364,22 +417,19 @@
             </div>
             </div>
             <div class="col-md-9">
+            <div class="hhp">
+                  <h4>Lorem ipsum dolor sit amet, consectetur adipisicit</h4>
+                  <h6>Lorem ipsum dolor sit amet</h6>
+                  <p>Lorem ipsum dolor sit amdolore magna alienim ad minim veniam,
+                  quis nostrud exeint occaecat cupidatat non
+                  proident, sunt anim id est laborum.</p>
+                  </div>
            
-              <h4>Lorem ipsum dolor sit amet, consectetur adipisicit</h4>
-              <h6>Lorem ipsum dolor sit amet</h6>
-              <p>Lorem ipsum dolor sit amdolore magna alienim ad minim veniam,
-              quis nostrud exeint occaecat cupidatat non
-              proident, sunt anim id est laborum.</p>
-           
-              </div>
             </div>
-   
-      
-    </div>
+            </div>
+            </div>
     <div class="col-md-5">
-    
-           
-             <div class="ourcol"></div>
+    <div class="ourcol"></div>
             <div class="row rownewsright">
               <div class="col-md-3">
                 <div id="datedayright"><b>23</b>
@@ -387,55 +437,83 @@
               </div>
               </div>
               <div class="col-md-9">
-                <h4>Lorem ipsum dolor sit amet, consectetur adipisicit</h4>
-                <h6>Lorem ipsum dolor sit amet</h6>
-                <p>Lorem ipsum dolor sit amdolore magna alienim ad minim veniam,
-                quis nostrud exeint occaecat cupidatat non
-                proident, sunt anim id est laborum.</p>
+              <div class="hhp">
+                  <h4>Lorem ipsum dolor sit amet, consectetur adipisicit</h4>
+                  <h6>Lorem ipsum dolor sit amet</h6>
+                  <p>Lorem ipsum dolor sit amdolore magna alienim ad minim veniam,
+                  quis nostrud exeint occaecat cupidatat non
+                  proident, sunt anim id est laborum.</p>
               </div>
-
-          
-              
-        </div>
+              </div>
+              </div>
       
     </div>
     </div>
     </div>
  <div class="container-fluid">
-
-  <div class="row ">
-    <div class="col-md-2 col-md-offset-2">
-  <div class="followinsta">FOLLOW US ON INSTAGRAM</div>
-  </div>
-  </div>
-   </div> 
+    <div class="row ">
+        <div class="col-md-2 col-md-offset-2">
+          <div class="followinsta">FOLLOW US ON INSTAGRAM</div>
+       </div>
+   </div>
+</div> 
 </div>
-<div class="container-fluid">
-<div class="row">
-<div id="instafotos">
 
- <img src="images/IMG_20160524_145055_-1147962981.jpg">
- <img src="images/IMG_20160524_130824_427081888.jpg"> 
- <img src="images/IMG_20160409_201802_1690742545.jpg">
- <img src="images/IMG_20160525_102358_105774757.jpg">
- <img src="images/IMG_20160527_143933_1127977340.jpg">
- <img src="images/IMG_20160527_144854_747487239.jpg">
- <img src="images/IMG_20160517_234110_-1704803325.jpg">
- <img src="images/IMG_20160518_174056_-466898338.jpg">
- 
-
-
+  <div id="instafotos">
   
-  </div>
-</div>
-</div>
- <div class="container-fluid">
+       <ul id="lightSlider">
+        <li data-thumb="images/IMG_20160524_145055_-1147962981.jpg">
+            <img src="images/IMG_20160524_145055_-1147962981.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160524_130824_427081888.jpg">
+            <img src="images/IMG_20160524_130824_427081888.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160409_201802_1690742545.jpg">
+            <img src="images/IMG_20160409_201802_1690742545.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160525_102358_105774757.jpg">
+            <img src="images/IMG_20160525_102358_105774757.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160527_143933_1127977340.jpg">
+            <img src="images/IMG_20160527_143933_1127977340.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160527_144854_747487239.jpg">
+            <img src="images/IMG_20160527_144854_747487239.jpg" />
+        </li>
+      
+        <li data-thumb="images/IMG_20160524_145055_-1147962981.jpg">
+            <img src="images/IMG_20160524_145055_-1147962981.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160524_130824_427081888.jpg">
+            <img src="images/IMG_20160524_130824_427081888.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160409_201802_1690742545.jpg">
+            <img src="images/IMG_20160409_201802_1690742545.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160525_102358_105774757.jpg">
+            <img src="images/IMG_20160525_102358_105774757.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160527_143933_1127977340.jpg">
+            <img src="images/IMG_20160527_143933_1127977340.jpg" />
+        </li>
+        <li data-thumb="images/IMG_20160527_144854_747487239.jpg">
+            <img src="images/IMG_20160527_144854_747487239.jpg" />
+        </li>
+       
+    
+    </ul>
+                
+ 
+          
+      
+   </div>
 
-  <div class="row ">
-    <div class="col-md-1 col-md-offset-9">
-  <div class="natural"><b>FLOWIE NATURAL</b></div>
-  </div>
-  </div>
+<div class="container-fluid">
+    <div class="row ">
+        <div class="col-md-1 col-md-offset-9">
+          <div class="natural"><b>FLOWIE NATURAL</b></div>
+        </div>
+    </div>
    </div> 
 </div>
       <!-- Aysel:  end -->
@@ -492,9 +570,11 @@
       <!-- Arzu:  end -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lightslider.js"></script>
     <!-- Main js -->
     <script src="assets/js/main.js"></script>
   </body>

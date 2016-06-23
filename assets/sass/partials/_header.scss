@@ -1,5 +1,5 @@
-$Capfont: 'RageItalic', sans-serif;
-$font: 'Lato-Regular', sans-serif;
+$Capfont: RageItalic;
+$font: Lato-Regular;
 $pad-top: 20px;
 $pad-bottom: 20px;
 $t-deco: none;
@@ -17,9 +17,6 @@ src: url("../../assets/fonts/Lato-Regular.eot");
 src: local("☺"), url("../../assets/fonts/Lato-Regular.woff") format("woff"),url("../../assets/fonts/Lato-Regular.ttf") format("truetype"),url("../../assets/fonts/Lato-Regular.svg") format("svg");
 font-weight: normal;
 font-style: normal; }
-
-
-body { font-family: $font; }
 
 
 a , a:hover {
