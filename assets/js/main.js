@@ -1,5 +1,5 @@
 	$(document).ready(function(){
-		$(" button").hover(function(){
+		$(".btn-card").hover(function(){
 			$(this).css({
 			"background":"#a1bd53",
 			"color":"#ffffff"
@@ -12,26 +12,5 @@
 			"background":"",
 			"transition-duration":".5s"
 		})
-	})
-	$(" button").click(function(){
-		$(this).css({
-			"background":"#a1bd53",
-			"color":"#ffffff"
-		})
-
-		})
-	$(".gift p a").hover(function(){
-			$(this).css({
-			
-			"color":"#a1bd53"
-		})
-		})
-		.mouseout(function(){
-		$(this)
-		.css({
-			"color":"",
-			 "transition-duration":".5s"
-		})
-	})
-		
+	})		
 });

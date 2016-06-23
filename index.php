@@ -181,9 +181,9 @@
       <div class="bg-f1f1f1 padding-section">
         <div class="container">
           <div class="row txt-center">
-            <h2 class="col-xs-12 txt-upper color-2b2b2b">Featured items</h2>
+            <h2 class="col-xs-12 txt-upper color-2b2b2b f-lato">Featured items</h2>
 
-            <ul class="nav nav-tabs display-ib" role="tablist">
+            <ul class="nav nav-tabs display-ib m-t-3" role="tablist">
               <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
 
               <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
@@ -193,79 +193,28 @@
               <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
             </ul> <!-- end of .nav-tabs  -->
 
-            <div class="tab-content">
+            <div class="tab-content m-t-3">
               <div role="tabpanel" class="tab-pane active" id="home">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-
                   <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                      <div class="thumbnail no-margin">
+                  <?php for ($i=0; $i < 4; $i++) : ?>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 m-b-3">
+                      <div class="thumbnail no-margin no-radius">
                         <a href="#" class="display-b">
                           <img src="images/_slider.jpg" alt="">
 
                           <div class="caption">
-                            <h3>Small Cactus Variety pot from France</h3>
-                            <p>$45.00</p>
+                            <h3 class="f-lato">Small Cactus Variety pot from France</h3>
+                            <p class="f-lato">$45.00</p>
                           </div>
                         </a>
                       </div> <!-- end of .thumbnail -->
 
-                      <span class="thumbnail-addCart display-b">
-                        <a href="#" class="">Add to card</a>
-                      </span>
+                      <span class="display-b">
+                          <a href="#" class="f-lato btn-card btn btn-block no-radius color-2b2b2b">Add to card</a>
+                        </span>
                     </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                      <div class="thumbnail no-margin">
-                        <a href="#" class="display-b">
-                          <img src="images/_slider.jpg" alt="">
-
-                          <div class="caption">
-                            <h3>Small Cactus Variety pot from France</h3>
-                            <p>$45.00</p>
-                          </div>
-                        </a>
-                      </div> <!-- end of .thumbnail -->
-
-                      <span class="thumbnail-addCart display-b">
-                        <a href="#" class="">Add to card</a>
-                      </span>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                      <div class="thumbnail no-margin">
-                        <a href="#" class="display-b">
-                          <img src="images/_slider.jpg" alt="">
-
-                          <div class="caption">
-                            <h3>Small Cactus Variety pot from France</h3>
-                            <p>$45.00</p>
-                          </div>
-                        </a>
-                      </div> <!-- end of .thumbnail -->
-
-                      <span class="thumbnail-addCart display-b">
-                        <a href="#" class="">Add to card</a>
-                      </span>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                      <div class="thumbnail no-margin">
-                        <a href="#" class="display-b">
-                          <img src="images/_slider.jpg" alt="">
-
-                          <div class="caption">
-                            <h3>Small Cactus Variety pot from France</h3>
-                            <p>$45.00</p>
-                          </div>
-                        </a>
-                      </div> <!-- end of .thumbnail -->
-
-                      <span class="thumbnail-addCart display-b">
-                        <a href="#" class="">Add to card</a>
-                      </span>
-                    </div>
-
+                  <?php endfor ?>
                   </div> <!-- end of .row -->
                 </div> <!-- end of .col-lg-6 main first -->
 
@@ -273,11 +222,11 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <div class="row">
                     <div class="col-xs-12 i-frame">
-                      <h2>We from France. <br><span class="color-green">BestWishes</span> for you</h2>
+                      <h2 class="f-lato">We from France. <br><span class="color-green">BestWishes</span> for you</h2>
 
-                      <p>Hawker & Jonre PSD Template is an awesome design idea for your online shop. Creative. Modern. Elegant. Clean. Also it will be very easy to customize, enable you to either create a stunning layout of your own or just do some minor and some adjustments.</p>
+                      <p class="f-lato">Hawker & Jonre PSD Template is an awesome design idea for your online shop. Creative. Modern. Elegant. Clean. Also it will be very easy to customize, enable you to either create a stunning layout of your own or just do some minor and some adjustments.</p>
 
-                      <a href="#" class="display-b color-3b3b3b headline headline-green">View more</a>
+                      <a href="#" class="display-b color-3b3b3b headline headline-green f-lato">View more</a>
                     </div>
                   </div> <!-- end of .row  -->
                 </div> <!-- end of .col-lg-6 main second  -->
