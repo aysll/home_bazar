@@ -242,10 +242,12 @@ body {
 
 .ourcol {
   cursor: pointer;
-  height: 180px;
+  height: 225px;
   width: 445px;
-  background: gray;
   margin: 20px; }
+  .ourcol img {
+    height: 225px;
+    width: 445px; }
 
 .rowcol {
   margin: 0 auto; }
@@ -308,6 +310,10 @@ body {
   #instafotos img {
     height: 165px;
     width: 169px; }
+  #instafotos .lSSlideOuter .lSPager.lSpg > li a {
+    background-color: #3FB649; }
+  #instafotos .lSSlideOuter .lSPager.lSpg > li:hover a, #instafotos .lSSlideOuter .lSPager.lSpg > li.active a {
+    background-color: green; }
 
 .followinsta {
   cursor: pointer;
@@ -337,7 +343,7 @@ body {
   cursor: pointer; }
 
 .hhp {
-  padding-left: 20px; }
+  margin-left: 15px; }
 
 @media only screen and (max-width: 480px) {
   body {
@@ -348,7 +354,8 @@ body {
     text-align: center;
     margin-left: 35px; }
 
-  .ourcol {
+  .ourcol img {
+    height: 225px;
     width: 100%; }
 
   #datedayleft {
@@ -365,9 +372,6 @@ body {
 
   .text {
     width: 100%; }
-
-  #instafotos img {
-    width: 131%; }
 
   .ourcol {
     width: 100%;
@@ -393,8 +397,7 @@ body {
     margin-top: 30px; }
 
   .ourcol {
-    width: 100%;
-    background: #D3D3D3; }
+    width: 100%; }
 
   #instafotos img {
     width: 115%; } }

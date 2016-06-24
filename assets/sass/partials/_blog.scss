@@ -17,10 +17,14 @@ body{
 }
 .ourcol{
 	cursor:pointer;
-	height:180px;
+	height:225px;
 	width:445px;
-	background:gray;
 	margin:20px;
+	img{
+		height:225px;
+	width:445px;
+
+	}
 	}
 .rowcol{
 	margin:0 auto;
@@ -88,16 +92,16 @@ body{
     img{
     	height:165px;
     	width:169px;
-
-    	
- }
+	}
     position: relative;
-    // z-index: -1;
     width:100%;
     font-family: $font;
-
-    
-    }
+    .lSSlideOuter .lSPager.lSpg > li a {
+		background-color: #3FB649;}
+		.lSSlideOuter .lSPager.lSpg > li:hover a, .lSSlideOuter .lSPager.lSpg > li.active a {
+			background-color: green;
+	}
+}
 .followinsta{
 	cursor:pointer;
 	position: absolute;
@@ -124,10 +128,8 @@ body{
     
 }
 .hhp{
-	padding-left:20px;
+	margin-left:15px;
 }
-
-
 
 @media only screen and (max-width:480px){
 body{
@@ -140,9 +142,14 @@ body{
 	margin-left:35px;
 	}
 }
+
 .ourcol{
+	img{
+		height:225px;
 	width:100%;
-}
+
+	}
+	}
 
 #datedayleft{
 	margin-left: 25%;
@@ -166,13 +173,11 @@ h4,p{
 .text{
 	width:100%;
 }
-#instafotos{
-	img{
-		width:131%;
+// #instafotos,.followinsta, .natural{
+// 	visibility: hidden;
 		
-		}
-		
-	}
+	
+// }
  .ourcol{
 	width:100%;
 	background:$gy;
@@ -213,7 +218,7 @@ h4,p{
 }
 .ourcol{	
 	width:100%; 
-	background:$gy;
+	
 }
 #instafotos{
 	img{

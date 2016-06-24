@@ -409,7 +409,7 @@
 
     <div class="row rowcol"> 
     <div class="col-md-5 col-md-offset-1"> 
-          <div class="ourcol"></div>
+          <div class="ourcol"><img src="images/IMG_20160517_234110_-1704803325.jpg"></div>
            <div class="row rownewsleft">
             <div class="col-md-3">
               <div id="datedayleft"><b>12</b>
@@ -429,7 +429,7 @@
             </div>
             </div>
     <div class="col-md-5">
-    <div class="ourcol"></div>
+    <div class="ourcol"><img src="images/plant1.jpg"></div>
             <div class="row rownewsright">
               <div class="col-md-3">
                 <div id="datedayright"><b>23</b>
@@ -450,14 +450,15 @@
     </div>
     </div>
     </div>
- <div class="container-fluid">
+    </div>
+
+      <div class="hidden-xs">
     <div class="row ">
-        <div class="col-md-2 col-md-offset-2">
+        <div class="col-md-2 col-md-offset-2 ">
           <div class="followinsta">FOLLOW US ON INSTAGRAM</div>
        </div>
    </div>
-</div> 
-</div>
+
 
   <div id="instafotos">
   
@@ -484,20 +485,27 @@
         <li data-thumb="images/IMG_20160524_145055_-1147962981.jpg">
             <img src="images/IMG_20160524_145055_-1147962981.jpg" />
         </li>
-        <li data-thumb="images/IMG_20160524_130824_427081888.jpg">
-            <img src="images/IMG_20160524_130824_427081888.jpg" />
+        <li data-thumb="images/pitcher.jpg">
+            <img src="images/pitcher.jpg" />
         </li>
         <li data-thumb="images/IMG_20160409_201802_1690742545.jpg">
             <img src="images/IMG_20160409_201802_1690742545.jpg" />
         </li>
-        <li data-thumb="images/IMG_20160525_102358_105774757.jpg">
-            <img src="images/IMG_20160525_102358_105774757.jpg" />
+        <li data-thumb="images/gostak.jpg">
+            <img src="images/gostak.jpg" />
         </li>
-        <li data-thumb="images/IMG_20160527_143933_1127977340.jpg">
-            <img src="images/IMG_20160527_143933_1127977340.jpg" />
+        <li data-thumb="images/plant1.jpg">
+            <img src="images/plant1.jpg" />
         </li>
-        <li data-thumb="images/IMG_20160527_144854_747487239.jpg">
-            <img src="images/IMG_20160527_144854_747487239.jpg" />
+       
+          <li data-thumb="images/angel.jpg">
+            <img src="images/angel.jpg" />
+        </li>
+        <li data-thumb="images/coaster.jpg">
+            <img src="images/coaster.jpg" />
+        </li>
+        <li data-thumb="images/kidsinfuser.jpg">
+            <img src="images/kidsinfuser.jpg" />
         </li>
        
     
@@ -508,14 +516,15 @@
       
    </div>
 
-<div class="container-fluid">
     <div class="row ">
         <div class="col-md-1 col-md-offset-9">
-          <div class="natural"><b>FLOWIE NATURAL</b></div>
+          <div class="natural"><b>HOME BAZAAR</b></div>
         </div>
     </div>
    </div> 
 </div>
+</div>
+
       <!-- Aysel:  end -->
 
       <!-- Arzu: start -->
